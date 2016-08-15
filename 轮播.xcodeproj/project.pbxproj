@@ -15,6 +15,8 @@
 		30FB72581D615F1C00EA666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB72561D615F1C00EA666F /* LaunchScreen.storyboard */; };
 		30FB72631D615F1C00EA666F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB72621D615F1C00EA666F /* __Tests.m */; };
 		30FB726E1D615F1C00EA666F /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB726D1D615F1C00EA666F /* __UITests.m */; };
+		30FB727E1D615F3800EA666F /* TWPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB727C1D615F3800EA666F /* TWPageView.m */; };
+		30FB727F1D615F3800EA666F /* TWPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB727D1D615F3800EA666F /* TWPageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		30FB72691D615F1C00EA666F /* 轮播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FB726D1D615F1C00EA666F /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		30FB726F1D615F1C00EA666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB727B1D615F3800EA666F /* TWPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPageView.h; sourceTree = "<group>"; };
+		30FB727C1D615F3800EA666F /* TWPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPageView.m; sourceTree = "<group>"; };
+		30FB727D1D615F3800EA666F /* TWPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWPageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		30FB72471D615F1C00EA666F /* 轮播 */ = {
 			isa = PBXGroup;
 			children = (
+				30FB727B1D615F3800EA666F /* TWPageView.h */,
+				30FB727C1D615F3800EA666F /* TWPageView.m */,
+				30FB727D1D615F3800EA666F /* TWPageView.xib */,
 				30FB724B1D615F1C00EA666F /* AppDelegate.h */,
 				30FB724C1D615F1C00EA666F /* AppDelegate.m */,
 				30FB724E1D615F1C00EA666F /* ViewController.h */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FB727F1D615F3800EA666F /* TWPageView.xib in Resources */,
 				30FB72581D615F1C00EA666F /* LaunchScreen.storyboard in Resources */,
 				30FB72551D615F1C00EA666F /* Assets.xcassets in Resources */,
 				30FB72531D615F1C00EA666F /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FB727E1D615F3800EA666F /* TWPageView.m in Sources */,
 				30FB72501D615F1C00EA666F /* ViewController.m in Sources */,
 				30FB724D1D615F1C00EA666F /* AppDelegate.m in Sources */,
 				30FB724A1D615F1C00EA666F /* main.m in Sources */,
