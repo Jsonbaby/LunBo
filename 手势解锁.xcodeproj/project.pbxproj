@@ -14,9 +14,9 @@
 		7D112F5D1DC72B1900428DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D112F5B1DC72B1900428DFE /* LaunchScreen.storyboard */; };
 		7D112F681DC72B1900428DFE /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F671DC72B1900428DFE /* ____Tests.m */; };
 		7D112F731DC72B1900428DFE /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F721DC72B1900428DFE /* ____UITests.m */; };
-		7D112F861DC72B4700428DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D112F801DC72B4700428DFE /* Main.storyboard */; };
-		7D112F871DC72B4700428DFE /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F831DC72B4700428DFE /* VCView.m */; };
-		7D112F881DC72B4700428DFE /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F851DC72B4700428DFE /* LockView.m */; };
+		7D112F8E1DC7343E00428DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D112F891DC7343E00428DFE /* Main.storyboard */; };
+		7D112F8F1DC7343E00428DFE /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F8B1DC7343E00428DFE /* VCView.m */; };
+		7D112F901DC7343E00428DFE /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D112F8D1DC7343E00428DFE /* LockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		7D112F6E1DC72B1900428DFE /* 手势解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D112F721DC72B1900428DFE /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		7D112F741DC72B1900428DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D112F811DC72B4700428DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/已看过/0619-Quartz2D演练/代码/07-手势解锁(按钮选中和连线)/06-手势解锁/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		7D112F821DC72B4700428DFE /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCView.h; path = "../../../Downloads/已看过/0619-Quartz2D演练/代码/07-手势解锁(按钮选中和连线)/06-手势解锁/VCView.h"; sourceTree = "<group>"; };
-		7D112F831DC72B4700428DFE /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCView.m; path = "../../../Downloads/已看过/0619-Quartz2D演练/代码/07-手势解锁(按钮选中和连线)/06-手势解锁/VCView.m"; sourceTree = "<group>"; };
-		7D112F841DC72B4700428DFE /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockView.h; path = "../../../Downloads/已看过/0619-Quartz2D演练/代码/07-手势解锁(按钮选中和连线)/06-手势解锁/LockView.h"; sourceTree = "<group>"; };
-		7D112F851DC72B4700428DFE /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LockView.m; path = "../../../Downloads/已看过/0619-Quartz2D演练/代码/07-手势解锁(按钮选中和连线)/06-手势解锁/LockView.m"; sourceTree = "<group>"; };
+		7D112F891DC7343E00428DFE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D112F8A1DC7343E00428DFE /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		7D112F8B1DC7343E00428DFE /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		7D112F8C1DC7343E00428DFE /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		7D112F8D1DC7343E00428DFE /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +111,11 @@
 				7D112F511DC72B1800428DFE /* AppDelegate.m */,
 				7D112F531DC72B1800428DFE /* ViewController.h */,
 				7D112F541DC72B1800428DFE /* ViewController.m */,
-				7D112F801DC72B4700428DFE /* Main.storyboard */,
-				7D112F821DC72B4700428DFE /* VCView.h */,
-				7D112F831DC72B4700428DFE /* VCView.m */,
-				7D112F841DC72B4700428DFE /* LockView.h */,
-				7D112F851DC72B4700428DFE /* LockView.m */,
+				7D112F891DC7343E00428DFE /* Main.storyboard */,
+				7D112F8A1DC7343E00428DFE /* VCView.h */,
+				7D112F8B1DC7343E00428DFE /* VCView.m */,
+				7D112F8C1DC7343E00428DFE /* LockView.h */,
+				7D112F8D1DC7343E00428DFE /* LockView.m */,
 				7D112F591DC72B1900428DFE /* Assets.xcassets */,
 				7D112F5B1DC72B1900428DFE /* LaunchScreen.storyboard */,
 				7D112F5E1DC72B1900428DFE /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D112F861DC72B4700428DFE /* Main.storyboard in Resources */,
+				7D112F8E1DC7343E00428DFE /* Main.storyboard in Resources */,
 				7D112F5D1DC72B1900428DFE /* LaunchScreen.storyboard in Resources */,
 				7D112F5A1DC72B1900428DFE /* Assets.xcassets in Resources */,
 			);
@@ -284,10 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D112F551DC72B1800428DFE /* ViewController.m in Sources */,
-				7D112F881DC72B4700428DFE /* LockView.m in Sources */,
+				7D112F901DC7343E00428DFE /* LockView.m in Sources */,
 				7D112F521DC72B1800428DFE /* AppDelegate.m in Sources */,
 				7D112F4F1DC72B1800428DFE /* main.m in Sources */,
-				7D112F871DC72B4700428DFE /* VCView.m in Sources */,
+				7D112F8F1DC7343E00428DFE /* VCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,14 +329,6 @@
 				7D112F5C1DC72B1900428DFE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		7D112F801DC72B4700428DFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D112F811DC72B4700428DFE /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -523,6 +515,7 @@
 				7D112F791DC72B1900428DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D112F7A1DC72B1900428DFE /* Build configuration list for PBXNativeTarget "手势解锁Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +524,7 @@
 				7D112F7C1DC72B1900428DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D112F7D1DC72B1900428DFE /* Build configuration list for PBXNativeTarget "手势解锁UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +533,7 @@
 				7D112F7F1DC72B1900428DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
